@@ -1,0 +1,16 @@
+/* great-table */
+.great-table table, th, tr, td{
+	border: 2px solid #333;
+}
+.great-table td, th {
+	padding:5px 10px;
+	text-align:left;
+}
+.great-table table {
+	margin-left:auto;
+	margin-right:auto;
+}
+.great-table tr:nth-child(even) {background: #fff;}
+.great-table tr:nth-child(odd) {background: #eee;}
+.great-table tr:hover {background: #80b5ff;}
+/* END great-table */
